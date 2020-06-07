@@ -1,0 +1,68 @@
+<html>
+<head>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body >
+	<div id="header">
+	<h1>Welcome to covid 19 Page.</h1>
+	<h3>Get latest Data below</h3>
+	</div>
+	<br>
+	<div id="Main">
+	<div id="MainForm">
+		Choose Country
+		<br>
+		<select id="countryName">
+		</select>
+		<button id="cases-button">Check cases</button>
+		<br>
+		<img id="loader-image" src="">
+	</div>
+		<br>
+		<h4 id="show-country-name"></h4>
+		<p id="total-cases"></p>
+		<p id="total-recoveries" style="color:green"></p>
+		<p id="total-deaths" style="color:red"></p>
+		<p id="mortality-rate"></p>
+	</div> 
+	<div id="APIName">API by: getpostman.com<br>Coded By: Harmonpreet SIngh</div>
+
+
+</body>
+</html>
+
+<style>
+	body
+	{
+		background-color:#d7e0d9;
+	}
+	#header
+	{
+		padding: 20;
+		text-align: left;
+		background-color: black;
+		color: #717572;
+		top:0;
+		left:0;
+		width:100%;
+	}
+	#Main
+	{
+		text-align: center;
+		padding: 30;
+	}
+	#APIName
+	{
+		text-align: center;
+		bottom:0;
+		color:#717572;
+		background-color: black;
+		position:fixed;
+		width:100%;
+		padding:10;
+
+	}
+
+</style>
