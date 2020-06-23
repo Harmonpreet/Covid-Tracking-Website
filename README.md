@@ -11,4 +11,4 @@ JQuery<br>
 API by: getpostman.com
 
 ##  Deployement Link
-Link :  https://harmonpreet.github.io/Covid-Tracking-Website/
+Link :  https://harmonpreet012.github.io/Covid-Tracking-Website/
