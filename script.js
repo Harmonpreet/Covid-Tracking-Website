@@ -30,7 +30,7 @@ $(document).ready(function(){
   	    document.getElementById("total-cases").innerHTML="Total cases : "+totalCases;
     	document.getElementById("total-recoveries").innerHTML="Total recoveries : "+totalRecoveries;
     	document.getElementById("total-deaths").innerHTML="Total deaths : " +totalDeaths;
-    	var mortalityRate=(totalDeaths/totalCases)*100;
+    	var mortalityRate=Math.floor((totalDeaths/totalCases)*100);
     	document.getElementById("mortality-rate").innerHTML="mortality rate : " +mortalityRate+ "%";
     
 }, 3000);
