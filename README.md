@@ -8,7 +8,7 @@ JavaScript<br>
 JQuery<br>
 
 ##  API
-API by: getpostman.com
+API by: api.covid19api.com
 
 ##  Deployement Link
 Link :  https://harmonpreet012.github.io/Covid-Tracking-Website/
